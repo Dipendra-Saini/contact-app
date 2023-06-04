@@ -1,0 +1,55 @@
+body{
+    background-color: violet;
+}
+
+.main-div{
+    border: 2px solid brown;
+}
+
+.child-div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid brown;
+}
+
+.figure {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+#main-logo{
+    margin-top: 15%;
+    margin-left: 30px;
+    width: 200px;
+    height: 200px;
+}
+
+.get-data{
+    margin: 200px;
+}
+
+.each-items{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 3px solid blue;
+    margin: 20px 200px 20px 200px;
+}
+
+.each-items>span {
+    margin-left: 100px;
+    margin-right: 100px;    
+}
+
+#sub{
+    margin-top: 10px;
+}
+
+/* mybox{
+    position: absolute;
+    top: 0;
+    right: 0;   
+} */

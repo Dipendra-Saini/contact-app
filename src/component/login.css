@@ -1,0 +1,63 @@
+
+.Container{
+    /* border: 2px solid black; */
+    background-image: url("login.jpg");
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.box{
+    border: 2px solid saddlebrown;
+    padding: 5%;
+}
+
+.box>h1 {
+    text-align: center;
+    /* Add any other styles you need */
+}
+
+.box>label{
+    font-size: medium;
+    font-style: normal;
+    margin: 10px;
+}
+
+.box>input{
+    width: 200px;
+    height: 25px;
+    margin: 20px;
+}
+
+.box>button{
+    background-color: rgb(119, 0, 255);
+    margin-left: 75px;
+    width: 100px;
+    height: 40px;
+}
+
+h2{
+    border: 2px solid peru;
+    border-radius: 50px;
+    text-align: center;
+    background: rgb(201, 132, 196);
+}
+
+button:hover{
+    background-color: #3498db;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+
+}
+
+a{
+    text-decoration: none;
+    /* font-size: 20px;
+    font-style: italic;
+    vertical-align: center; */
+}
